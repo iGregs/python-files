@@ -26,5 +26,11 @@ if answer1 == ("central processing unit") :
     score += 1
 else : print ('Incorrect')
 
+answer1 = input("What is RAM stand for? : ").lower()
+if answer1 == ("random access memory") :
+    print('Correct!')
+    score += 1
+else : print ('Incorrect')
+
 print("You got " + str(score) + " questions correct!")
-print("You got " + str((score/ 3) * 100)+ "%.")
+print("You got " + str((score/ 4) * 100)+ "%.")
